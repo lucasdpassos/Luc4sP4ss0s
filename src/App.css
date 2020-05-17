@@ -1,0 +1,18 @@
+.App {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #fafafa;
+    padding-top: 4rem;
+    min-height: 100vh;
+  }
+  
+  .navBar {
+    background-color: #ef5350 !important;
+    color: azure;
+    font-size: 18px;
+  }
+  
+  body {
+    background-color: transparent !important;
+  }
