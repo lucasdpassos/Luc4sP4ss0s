@@ -1,0 +1,17 @@
+export const bug = require('./bug.png');
+export const dragon = require('./dragon.png');
+export const electric = require('./electric.png');
+export const fairy = require('./fairy.png');
+export const fighting = require('./fighting.png');
+export const fire = require('./fire.png');
+export const flying = require('./flying.png');
+export const ghost = require('./ghost.png');
+export const grass = require('./grass.png');
+export const ground = require('./ground.png');
+export const ice = require('./ice.png');
+export const normal = require('./normal.png');
+export const poison = require('./poison.png');
+export const psychic = require('./psychic.png');
+export const rock = require('./rock.png');
+export const steel = require('./steel.png');
+export const water = require('./water.png');

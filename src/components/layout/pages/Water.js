@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PokemonCard from '../../pokemon/PokemonCard'
 import axios from 'axios';
+import PanelArea from './stylepanel'
 
 export default class PokemonList extends Component {
     state= {
@@ -11,7 +12,7 @@ export default class PokemonList extends Component {
     // Lucas: Utilizei o Axios para ler e requisitar as informações dentro da API (GET), e fazer "pokemon" receber o array 'results' de dentro dos dados, que é a lista de Pokemons
     async componentDidMount() {
         const res = await axios.get(this.state.url);
-        this.setState({ pokedata: res.data['pokemon'] })
+        this.setState({ pokedata: res.data['pokemon'].slice(0,32) })
         
     }
 
@@ -19,7 +20,7 @@ export default class PokemonList extends Component {
     caso contrário irá imprimir os cards. As Props foram definidas em PokemonCard.js */
     render() {
         return (
-            <>
+            <PanelArea>
                 {this.state.pokedata ? (
             <div className='row'>
                 {this.state.pokedata.map(pokedata => 
@@ -27,13 +28,13 @@ export default class PokemonList extends Component {
                         key={pokedata.pokemon.name}
                         name={pokedata.pokemon.name}
                         url={pokedata.pokemon.url}
-                    />
+                    /> 
                     )}
             </div>
         ) : (
             <h1> Carregando Pokemon </h1>
         )}
-           </>
+        </PanelArea>
     )};
 
 }

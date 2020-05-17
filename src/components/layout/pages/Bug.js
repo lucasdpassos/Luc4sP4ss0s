@@ -6,7 +6,7 @@ import PanelArea from './stylepanel'
 
 export default class PokemonList extends Component {
     state= {
-        url: 'https://pokeapi.co/api/v2/type/fire',
+        url: 'https://pokeapi.co/api/v2/type/bug',
         pokedata: null
     };
 

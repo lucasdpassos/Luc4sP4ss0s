@@ -6,14 +6,14 @@ import PanelArea from './stylepanel'
 
 export default class PokemonList extends Component {
     state= {
-        url: 'https://pokeapi.co/api/v2/type/fire',
+        url: 'https://pokeapi.co/api/v2/type/ghost',
         pokedata: null
     };
 
     // Lucas: Utilizei o Axios para ler e requisitar as informações dentro da API (GET), e fazer "pokemon" receber o array 'results' de dentro dos dados, que é a lista de Pokemons
     async componentDidMount() {
         const res = await axios.get(this.state.url);
-        this.setState({ pokedata: res.data['pokemon'].slice(0,12) })
+        this.setState({ pokedata: res.data['pokemon'].slice(0,3) })
         
         
     }
