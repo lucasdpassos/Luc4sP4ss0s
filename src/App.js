@@ -9,17 +9,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Template } from './components/MainComponents';
 import Header from './components/layout/Header'
-
+import Footer from './components/layout/Footer'
+import Logo from './components/layout/Logo'
 
 
 const Page = (props) => {
   return (
     <BrowserRouter>
      <Template>
+       <Logo />
         <Header />
 
         
-
+       
         <Routes />  
 
         
@@ -27,7 +29,7 @@ const Page = (props) => {
         
         
         
-     
+     <Footer />
      </Template>
     </BrowserRouter>
     

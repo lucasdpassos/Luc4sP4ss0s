@@ -47,10 +47,10 @@ export default class PokemonCard extends Component {
                             src={this.state.imageUrl}>
                          </Sprite>    
                     </div>     
-                    <div className='poke-item-add'>+</div>
+                    <div className='poke-item-add'></div>
                     </a>
                     <div className="poke-item--price"></div>
-                    <div className="poke-item--name">{this.state.name}</div>
+                    <div className="poke-item--name" style={{textTransform: 'capitalize'}}>{this.state.name}</div>
                 </div>    
             </div>
             

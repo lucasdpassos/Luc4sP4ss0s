@@ -2,12 +2,14 @@ import styled from 'styled-components';
 
 
 export const PanelArea = styled.div`
-    position: absolute;
-    left: 20%;    
+    margin-top: 10%;  
+    margin-bottom: 5%;  
     display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
     justify-content: center;
-    padding: 10px;
-    width: 1000px;
+    padding: 5px;
+    width: 100%;
 `
 
 export default PanelArea;
