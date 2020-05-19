@@ -12,10 +12,10 @@
     
 }
 .poke-item-img {
-    width:100px;
-    height:150px;
-    background-color:rgba(137, 47, 255, 0.301);
-    border: 1px solid black;
+    width:120px;
+    height:120px;
+    background-color:rgba(0, 0, 0, 0.685);
+    border: 2px solid orange;
     border-radius: 10%;
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
 }
@@ -31,7 +31,8 @@
     color:rgb(255, 255, 255);
     margin-top:5px;
 }
-#poke_item:hover {
-    padding: 15px;
+.poke-item-img:hover {
+    border: 3px solid orangered;
+    background-color: rgba(0, 0, 0, 0.651);
     
 }

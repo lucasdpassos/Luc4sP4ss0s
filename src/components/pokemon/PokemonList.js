@@ -35,7 +35,7 @@ export default class PokemonList extends Component {
                     )}
             </div>
         ) : (
-            <h1> Carregando Pokemon </h1>
+            <h1 className='button is-info is loading'> loading </h1>
         )}
            </>
     )};

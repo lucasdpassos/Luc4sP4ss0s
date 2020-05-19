@@ -15,4 +15,3 @@ export const psychic = require('./psychic.png');
 export const rock = require('./rock.png');
 export const steel = require('./steel.png');
 export const water = require('./water.png');
-export const pokeball = require('./pokeball.jpg');

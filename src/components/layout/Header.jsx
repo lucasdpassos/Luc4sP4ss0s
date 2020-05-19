@@ -20,7 +20,7 @@ const Header = () => {
                       
                       
                  </div>    
-                <div className='container is-desktop has-background-light' style={{marginBottom:'5%'}}>
+                <div className='container is-desktop has-background-grey' style={{marginBottom:'5%'}}>
                     <div className='columns is-mobile image is-60x60'>
                    
                      <div className='column'>
