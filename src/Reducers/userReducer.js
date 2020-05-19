@@ -1,3 +1,6 @@
+// Este conceito é aplicado caso posteriormente seja estruturada uma autenticação via e-mail do usuário
+
+
 const initialState = {
     email:''
 }

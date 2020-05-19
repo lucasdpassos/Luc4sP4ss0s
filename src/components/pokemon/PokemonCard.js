@@ -1,3 +1,11 @@
+
+
+/* Lucas: PokemonCard.js foi o template que criei para a exibição dos Pokémon, e que depois foi repassado para cada tipo em cada Rota
+    
+*/
+
+
+
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import './stylecard.css';

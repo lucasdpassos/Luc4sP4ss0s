@@ -9,6 +9,12 @@ import minidial from './images/trainers/minidial.png'
 import './headerstyle.css'
 
 
+
+/* Lucas: Eu estruturei o logotipo, as imagens dos treinadores, as caixas de diálogo e os ícones no Photoshop, para que o design da aplicação ficasse 
+personalizado com as cores da empresa, que mapeei pelo site oficial.
+*/
+
+
 const Header = () => {  
     return (
             <div className='container is-desktop has-background-colour-dark'>
@@ -26,103 +32,103 @@ const Header = () => {
                      <div className='column'>
                         <li>
                             <Link to='/bug'>
-                                <img src={bug} alt='fire' className='image is-70x70'  />
+                                <img src={bug} alt='fire' className='logo'  />
                             </Link>
                         </li>
                         <li>
                             <Link to='/dragon'>
-                                <img src={dragon} alt='water' className='image is-1000x70' />
+                                <img src={dragon} alt='water' className='logo' />
                             </Link>
                         </li>
                         </div>
                         <div className='column'>
                         <li>
                             <Link to='/electric'>
-                                <img src={electric} alt='water' className='image is-70x70' />
+                                <img src={electric} alt='water' className='logo' />
                             </Link>
                         </li>
                         <li>
                             <Link to='/fairy'>
-                                <img src={fairy} alt='water' className='image is-70x70' />
+                                <img src={fairy} alt='water' className='logo' />
                             </Link>
                         </li>
                         </div>
                         <div className='column'>
                         <li>
                             <Link to='/fighting'>
-                                <img src={fighting} alt='water' className='image is-70x70' />
+                                <img src={fighting} alt='water' className='logo' />
                             </Link>
                         </li>                       
                         <li>
                             <Link to='/fire'>
-                                <img src={fire} alt='water' className='waterlogo' />
+                                <img src={fire} alt='water' className='logo' />
                             </Link>
                         </li>
                         </div>
                         <div className='column'>
                         <li>
                             <Link to='/flying'>
-                                <img src={flying} alt='water' className='waterlogo' />
+                                <img src={flying} alt='water' className='logo' />
                             </Link>
                         </li>
                         <li>
                             <Link to='/ghost'>
-                                <img src={ghost} alt='water' className='waterlogo' />
+                                <img src={ghost} alt='water' className='logo' />
                             </Link>
                         </li>
                         </div>
                         <div className='column'>
                         <li>                            
                             <Link to='/grass'>
-                                <img src={grass} alt='water' className='waterlogo' />
+                                <img src={grass} alt='water' className='logo' />
                             </Link>
                         </li>
                         <li>
                             <Link to='/ground'>
-                                <img src={ground} alt='water' className='waterlogo' />
+                                <img src={ground} alt='water' className='logo' />
                             </Link>
                         </li>
                         </div>
                         <div className='column'>
                         <li>
                             <Link to='/ice'>
-                                <img src={ice} alt='water' className='waterlogo' />
+                                <img src={ice} alt='water' className='logo' />
                             </Link>
                         </li>
                         <li>
                             <Link to='/normal'>
-                                <img src={normal} alt='water' className='waterlogo' />
+                                <img src={normal} alt='water' className='logo' />
                             </Link>
                         </li>
                         </div>
                         <div className='column'>
                         <li>
                             <Link to='/poison'>
-                                <img src={poison} alt='water' className='waterlogo' />
+                                <img src={poison} alt='water' className='logo' />
                             </Link>
                         </li>
                         <li>
                             <Link to='/psychic'>
-                                <img src={psychic} alt='water' className='waterlogo' />
+                                <img src={psychic} alt='water' className='logo' />
                             </Link>
                         </li>
                         </div>
                         <div className='column'>
                         <li>
                             <Link to='/rock'>
-                                <img src={rock} alt='water' className='waterlogo' />
+                                <img src={rock} alt='water' className='logo' />
                             </Link>
                         </li>                        
                         <li>
                             <Link to='/steel'>
-                                <img src={steel} alt='water' className='waterlogo' />
+                                <img src={steel} alt='water' className='logo' />
                             </Link>
                         </li>
                         </div>
                         <div className='column'>
                         <li>
                             <Link to='/water'>
-                                <img src={water} alt='water' className='waterlogo' />
+                                <img src={water} alt='water' className='logo' />
                             </Link>
                         </li>
                         </div>

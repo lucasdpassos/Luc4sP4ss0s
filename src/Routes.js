@@ -1,3 +1,10 @@
+
+/* Lucas: Criei as Routes dos tipos de pokémon desta maneira para que cada lista de pokémon fosse impressa para o usuário da maneira mais detalhista possível.
+Dessa forma, a longo prazo na aplicação, cada página de cada tipo diferente poderia receber atributos únicos, melhorando a experiência do usuário, como por exemplo: um background
+diferente para cada uma, uma frase ou um recado.
+*/
+
+
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Bug from './components/layout/pages/Bug'

@@ -1,3 +1,14 @@
+## Atenção avaliador!
+
+Caso encontre algum conflito para rodar o react-scripts da aplicação, basta rodar um  * npm -install * para instalar as dependências necessárias, as informações gerais
+a respeito da construção da aplicação estão em 'App.js', no formato de comentário.
+
+
+Decidi manter informações default do create-react-app abaixo.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
