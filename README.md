@@ -1,6 +1,6 @@
 ## Atenção avaliador!
 
-Caso encontre algum conflito para rodar o react-scripts da aplicação, basta rodar um  * npm -install * para instalar as dependências necessárias, as informações gerais
+Caso encontre algum conflito para iniciar o react-scripts da aplicação, basta rodar um  * npm -install * para instalar as dependências necessárias, as informações gerais
 a respeito da construção da aplicação estão em 'App.js', no formato de comentário.
 
 
