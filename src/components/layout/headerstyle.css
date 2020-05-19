@@ -1,3 +1,4 @@
+
 li {
     list-style: none;
 }
@@ -12,16 +13,24 @@ li img:hover {
     border-radius: 100%;
 
 }
+
+
 #trainers {
     display: flex;
 }
 .trainer1 {
     width: 140px;
+    transition: 0.7s;
 }
 .trainer2 {
-    width: 140px;   
-     
+    width: 140px;    
+    transition: 0.7s;   
     
+}
+.minidial {
+    position: absolute;
+    margin: 0 0 0 -5000px;
+    transition: 0.7s;
 }
 
 @media (max-width:1370px){
@@ -30,16 +39,53 @@ li img:hover {
     }
     
 }
+
+
 @media (max-width:1215px){
     .trainer2 {
         position: absolute;
-        right:80%;
-        width: 50px;
+        left: 95%;
+        bottom: 60%;
+        width: 70px;
         
     }
     .trainer1 {
         
-        width: 50px;
+        width: 100px;
 
     }
+}
+@media (max-width:600px){
+    .trainer2 {
+        width: 50px;
+        margin: 0 0 0 -2000px;
+    }
+    .trainer1 {
+        width: 50px;
+        margin: 0 0 0 -2000px;
+    }
+    #dial {
+        position: absolute;
+        margin: 0 0 0 -2000px;
+    }
+    .minidial {
+        
+        margin: 0 auto;
+        padding: 60px;
+    }
+    #logo1 {
+        margin-bottom: 25%;
+    }
+    .columns img {
+        width: 500px;
+    }
+    
+}
+@media (max-width:765px) {
+    .trainer2 {
+        width: 50px;
+        position: absolute;
+        left: 105%
+    }
+        
 }

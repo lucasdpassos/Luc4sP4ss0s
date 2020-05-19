@@ -5,6 +5,7 @@ import { bug, dragon, electric, fairy, fighting, fire, flying, ghost, grass, gro
 import trainer1 from './images/trainers/trainer1.png'
 import trainer2 from './images/trainers/trainer2.png'
 import dialogo from './images/trainers/dialogo.png'
+import minidial from './images/trainers/minidial.png'
 import './headerstyle.css'
 
 
@@ -13,8 +14,9 @@ const Header = () => {
             <div className='container is-desktop has-background-colour-dark'>
                  <div id='trainers' className='container level is-mobile'>
                       <img className='trainer1 level-left' src={trainer1} />
-                      <img className='dial level-right' src={dialogo} />
+                      <img id='dial' className='dial level-right' src={dialogo} />                  
                       <img className='trainer2 level-right is-desktop' src={trainer2} />
+                      <img id='minidial' className='minidial' src={minidial} />
                       
                       
                  </div>    

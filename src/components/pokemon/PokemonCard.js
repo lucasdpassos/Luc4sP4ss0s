@@ -41,16 +41,13 @@ export default class PokemonCard extends Component {
         return (
             <div className='col-md-3 col-sm-6 mb-5'>  
                 <div className='poke-item'>
-                    <a href=''>
+                    
                     <div className='poke-item-img'>
-                         <Sprite id='poke_item' className='card-img-top rounded mx-auto mt-2'
+                         <Sprite id='poke_item' className='card-img-top mx-auto mt-2'
                             src={this.state.imageUrl}>
-                         </Sprite>    
-                    </div>     
-                    <div className='poke-item-add'></div>
-                    </a>
-                    <div className="poke-item--price"></div>
-                    <div className="poke-item--name" style={{textTransform: 'capitalize'}}>{this.state.name}</div>
+                         </Sprite>   
+                    </div>                
+              <div className="poke-item--name" style={{textTransform: 'capitalize'}}>{this.state.name}</div>
                 </div>    
             </div>
             
