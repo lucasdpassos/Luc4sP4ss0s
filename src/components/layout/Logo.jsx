@@ -6,7 +6,7 @@ export default class Logo extends Component {
     render() {
         return (
             <div id='logo1' className='column has-text-centered has-background-light is-mobile'>
-                <img src={logo} />
+                <img alt="logo" src={logo} />
             </div>
         )
     }

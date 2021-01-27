@@ -19,10 +19,10 @@ const Header = () => {
     return (
             <div className='container is-desktop has-background-colour-dark'>
                  <div id='trainers' className='container level is-mobile'>
-                      <img className='trainer1 level-left' src={trainer1} />
-                      <img id='dial' className='dial level-right' src={dialogo} />                  
-                      <img className='trainer2 level-right is-desktop' src={trainer2} />
-                      <img id='minidial' className='minidial' src={minidial} />
+                      <img className='trainer1 level-left' alt="trainer1" src={trainer1} />
+                      <img id='dial' className='dial level-right' alt="trainer2" src={dialogo} />                  
+                      <img className='trainer2 level-right is-desktop' alt="trainer3" src={trainer2} />
+                      <img id='minidial' className='minidial' alt="trainer4" src={minidial} />
                       
                       
                  </div>    
